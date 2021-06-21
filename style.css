@@ -12,3 +12,37 @@ html{
 a{
     text-decoration: none;
 }
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Hero Section */
+#hero {
+    background-image: url(images/0BA59306-A7B5-48E6-8174-D6E4CD07912E_1_105_c.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    
+}
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:oldlace;
+    opacity: .10;
+    z-index: -1;
+    
+}
+   
+    
+/* End Hero Section */
